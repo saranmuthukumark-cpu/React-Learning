@@ -6,7 +6,7 @@ parentEl.classList.add("bg-white", "rounded", "text-black", "p-5" , "w-[600px]",
 // creating child element
 const headEl = document.createElement("h1");
 headEl.textContent = "React Learning Path👋";
-headEl.classList.add("text-4xl", "text-center", "font-bold");
+headEl.className="text-4xl text-center font-bold";
 
 // creating ul element
 const ulEl = document.createElement("ul");
