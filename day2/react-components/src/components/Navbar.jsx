@@ -2,10 +2,10 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class=" w-full bg-slate-900 shadow-lg shadow-cyan-500/30 ">
-      <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <nav class=" w-full bg-black shadow-lg shadow-cyan-500/30 ">
+      <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
         <a href="https://github.com/saranmuthukumark-cpu">
-          <h1 class="text-xl font-bold text-cyan-400 nosifer-regular ">
+          <h1 class="text-3xl font-bold text-cyan-400 nosifer-regular ">
             SARAN
           </h1>
         </a>

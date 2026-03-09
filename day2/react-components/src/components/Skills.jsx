@@ -1,8 +1,8 @@
 function Skills({ title, skill1, skill2, skill3, skill4 }) {
   return (
     <section className="flex flex-row justify-center  mt-20">
-      <div className="bg-white/5 border border-cyan-400/30 rounded-2xl p-4 w-100 shadow-xl">
-        <h2 className="text-3xl font-bold text-center text-cyan-400 mb-8">
+      <div className="bg-slate-700 border border-cyan-400/30 rounded-2xl p-4 w-120 shadow-xl">
+        <h2 className="text-3xl font-bold text-center text-white mb-8">
           {title}
         </h2>
 

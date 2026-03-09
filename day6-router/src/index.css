@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+.active {
+  color: rgb(158, 20, 192);
+}

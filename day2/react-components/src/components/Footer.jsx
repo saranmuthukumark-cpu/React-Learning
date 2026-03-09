@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <div className="text-center py-6 bg-slate-900 text-gray-500 mt-10">
+      <div className="text-center py-6 bg-black text-gray-500 mt-30">
         © 2026. All Rights Reserved. Designed by Saran Muthukumar 💗 
         
       </div>

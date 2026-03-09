@@ -10,9 +10,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <div className="flex flex-row justify-center gap-10 ">
+      <div className="flex flex-row justify-center gap-5 ">
         <Skills
-          title="Frontend Skills"
+          title="Frontend"
           skill1="HTML"
           skill2="CSS"
           skill3="JavaScript"
@@ -20,17 +20,17 @@ function App() {
         />
 
         <Skills
-          title="Backend Skills"
-          skill1="Node.js"
+          title="Backend"
+          skill1="Nodejs"
           skill2="Express"
-          skill3="MongoDB"
+          skill3="Mongodb"
           skill4="SQL"
         />
 
         <Skills
-          title="AI & Tools"
+          title="Tools"
           skill1="VS Code"
-          skill2="Prompting"
+          skill2="Canva"
           skill3="Git"
           skill4="GitHub"
         />
