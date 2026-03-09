@@ -5,7 +5,7 @@ export default function About() {
         — ABOUT
       </p>
 
-      <h2 className="text-5xl font-bold bg-linear-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+      <h2 className="text-5xl font-bold bg-linear-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent pb-6">
         Turning Ideas Into Digital Reality
       </h2>
 
@@ -41,7 +41,7 @@ export default function About() {
             </div>
 
             <div className="bg-[#14193d] p-6 rounded-xl">
-              🤖 AI & Machine Learning
+              🤖 Artificial Intelligence
             </div>
 
           </div>

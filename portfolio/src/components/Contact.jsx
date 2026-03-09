@@ -73,7 +73,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://github.com/saranmuthukumar-k-cpu"
+              href="https://github.com/saranmuthukumark-cpu"
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-between items-center bg-[#0c1027] border border-gray-800 p-5 rounded-xl hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-500/10 transition">
@@ -82,7 +82,7 @@ export default function Contact() {
 
                 <div>
                   <p className="text-gray-400 text-sm">GITHUB</p>
-                  <p>saranmuthukumar-k-cpu</p>
+                  <p>saranmuthukumark-cpu</p>
                 </div>
               </div>
 
@@ -93,7 +93,6 @@ export default function Contact() {
 
         <div className="">
           <form className="space-y-6">
-            {/* Name + Email */}
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label className="text-sm text-gray-400">NAME</label>
