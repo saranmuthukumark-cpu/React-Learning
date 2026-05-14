@@ -12,7 +12,7 @@ export default function About() {
       <div className="grid grid-cols-2 gap-16 mt-16">
 
         <img
-          src="/public/images/saran-profile.jpg"
+          src="/images/saran-profile.jpg"
           className="rounded-xl shadow-lg"
         />
 

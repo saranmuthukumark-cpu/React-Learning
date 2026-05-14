@@ -22,7 +22,7 @@ export default function Projects() {
       <div className="bg-[#0b0f2a] border border-gray-800 rounded-2xl overflow-hidden">
 
         <img
-          src="public/images/project-alumni.png"
+          src="/images/project-alumni.png"
           alt="project"
           className="w-full h-80 object-cover"
         />

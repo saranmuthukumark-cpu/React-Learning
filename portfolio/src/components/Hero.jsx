@@ -68,7 +68,7 @@ export default function Hero() {
 
         <div className="relative border border-cyan-400/30 rounded-full p-6">
           <img
-            src="/public/images/saran-profile.jpg"
+            src="/images/saran-profile.jpg"
             alt="profile"
             className="w-100 h-100 object-cover rounded-full border-4 border-cyan-400/40"
           />
