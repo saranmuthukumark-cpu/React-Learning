@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Blog from "./components/blog/Blog";
+import {Blog} from "./components/blog/Blog";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
