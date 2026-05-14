@@ -1,7 +1,18 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Navbar from "../Navbar";
+import { themeContext } from "../theme/ThemeApi";
+import { useNavigate } from "react-router-dom";
 
 export default function Blog() {
+  const { isLog } = useContext(themeContext);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isLog) {
+      navigate("/login");
+    }
+  }, [isLog]);
+
   const [blogs, setBlogs] = useState(() => {
     const stored = localStorage.getItem("blogs");
     return stored ? JSON.parse(stored) : [];

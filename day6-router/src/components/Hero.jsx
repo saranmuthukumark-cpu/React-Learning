@@ -1,13 +1,18 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Navbar from "./Navbar";
 import { themeContext } from "./theme/ThemeApi";
-import Login from "./login/Login";
 import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
-  const { isLog, setIsLog, currentUser } = useContext(themeContext);
+  const { isLog, currentUser } = useContext(themeContext);
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isLog) {
+      navigate("/login");
+    }
+  }, [isLog]);
   return (
     <>
       {isLog && (
@@ -42,8 +47,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      )}{" "}
-      {!isLog && navigate("/login")}
+      )}
     </>
   );
 }
